@@ -42,7 +42,7 @@ export default {
   const { data } = await axios.get("https://covid19.mathdro.id/api/confirmed");
   var c=0
   for(var i=0;i<1000;i++){
-    if(data[i].countryRegion=="India"){
+    if(data[i].countryRegion=="Kenya"){
             if (data[i].provinceState in this.labels){
               continue
             }
